@@ -4,6 +4,4 @@
 </p>
 
 
-<center>
-    <img src="https://genshin-card.getloli.com/detail/9,10,12,22,27,28,30-33,35,37,38,42,46-48/75104655.png"/>
-</center>
+
