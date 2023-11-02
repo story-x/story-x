@@ -1,3 +1,20 @@
+const thisYear = new Date().getFullYear()
+const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime()
+const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
+const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
+const progressBarOfThisYear = generateProgressBar()
+
+function generateProgressBar() {
+    const progressBarCapacity = 30
+    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
+    const progressBar =
+      '█'.repeat(passedProgressBarIndex) +
+      '▁'.repeat(progressBarCapacity - passedProgressBarIndex)
+    return `{ ${progressBar} }`
+}
+
+const readme = `\
+
 ## story-x  👋
 <p align="center"><img src="https://github.com/story-x/story-x/blob/main/gif/RThN0hOS2GO4M.gif" /></p>
 
@@ -7,9 +24,9 @@
 
 ## 今年汇总 ✨
 
-⏳ Year progress { █████████████████████████▁▁▁▁▁ } 83.59 %
+⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
-⏰ Updated on Thu, 02 Nov 2023 02:39:07 GMT
+⏰ Updated on ${new Date().toUTCString()}
 
 ---
 <p align="center">
@@ -21,3 +38,7 @@
 <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/story-x/story-x/output/github-contribution-grid-snake.svg">
 </picture>
 </p>
+\
+`
+
+console.log(readme)
