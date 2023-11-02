@@ -1,15 +1,16 @@
+
 ## story-x  👋
 <p align="center"><img src="https://github.com/story-x/story-x/blob/master/gif/RThN0hOS2GO4M.gif" /></p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/story-x/count.svg" /></p>                 
-</a>                                                                                                    
+<p align="center"><img src="https://profile-counter.glitch.me/story-x/count.svg" /></p>
+</a>
 
 
 ## 今年汇总 ✨
 
-⏳ Year progress { █████████████████████████▁▁▁▁▁ } 83.60 %
+⏳ Year progress { █████████████████████████▁▁▁▁▁ } 83.63 %
 
-⏰ Updated on Thu, 02 Nov 2023 02:56:12 GMT
+⏰ Updated on Thu, 02 Nov 2023 06:20:33 GMT
 
 ---
 <p align="center">
@@ -21,3 +22,4 @@
 <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/story-x/story-x/output/github-contribution-grid-snake.svg">
 </picture>
 </p>
+
