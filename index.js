@@ -19,7 +19,6 @@ const readme = `\
 <p align="center"><img src="https://github.com/story-x/story-x/blob/master/gif/RThN0hOS2GO4M.gif" /></p>
 
 <p align="center"><img src="https://profile-counter.glitch.me/story-x/count.svg" /></p>
-</a>
 
 
 ## 今年汇总 ✨
