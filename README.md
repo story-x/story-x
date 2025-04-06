@@ -3,14 +3,13 @@
 <p align="center"><img src="https://github.com/story-x/story-x/blob/master/gif/RThN0hOS2GO4M.gif" /></p>
 
 <p align="center"><img src="https://profile-counter.glitch.me/story-x/count.svg" /></p>
-</a>
 
 
 ## 今年汇总 ✨
 
-⏳ Year progress { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 26.10 %
+⏳ Year progress { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 26.17 %
 
-⏰ Updated on Sun, 06 Apr 2025 06:29:17 GMT
+⏰ Updated on Sun, 06 Apr 2025 12:39:05 GMT
 
 ---
 <p align="center">
