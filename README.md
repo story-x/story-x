@@ -7,9 +7,9 @@
 
 ## 今年汇总 ✨
 
-⏳ Year progress { ██████████████████████████▁▁▁▁ } 86.92 %
+⏳ Year progress { ██████████████████████████▁▁▁▁ } 87.00 %
 
-⏰ Updated on Fri, 14 Nov 2025 06:35:17 GMT
+⏰ Updated on Fri, 14 Nov 2025 12:49:42 GMT
 
 ---
 <p align="center">
