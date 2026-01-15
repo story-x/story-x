@@ -1,0 +1,113 @@
+name: build
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+
+jobs:
+  snk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 生成贪吃蛇图
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake-light.svg
+            snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 上传文件
+        uses: actions/upload-artifact@v4
+        with:
+          name: snk
+          path: |
+            snake-light.svg
+            snake-dark.svg
+
+  star:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 生成star图
+      uses: Zo-Bro-23/grs-action@main
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=material-palenight&locale=cn'
+        path: star-light.svg
+
+    - name: 生成star dark图
+      uses: Zo-Bro-23/grs-action@main
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=omni&locale=cn'
+        path: star-dark.svg
+
+    - name: 上传文件
+      uses: actions/upload-artifact@v4
+      with:
+        name: star
+        path: |
+          star-light.svg
+          star-dark.svg
+
+  language:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 生成top-language图
+      uses: Zo-Bro-23/grs-action@main
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=material-palenight&locale=cn'
+        card: 'top-langs'
+        path: top-langs-light.svg
+
+    - name: 生成top-language dark图
+      uses: Zo-Bro-23/grs-action@main
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=omni&locale=cn'
+        card: 'top-langs'
+        path: top-langs-dark.svg
+
+    - name: 上传文件
+      uses: actions/upload-artifact@v4
+      with:
+        name: language
+        path: |
+            top-langs-light.svg
+            top-langs-dark.svg
+
+  push:
+    needs: [snk, star, language]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 下载产物
+        uses: actions/download-artifact@v5
+
+      - name: 清理文件
+        run: |
+          rm -rf .github
+          rm -rf README.md
+
+      - name: 提交并推送更改
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: dist
+          message: Deploy
+          empty: true
+          amend: true
+          force: true
+
