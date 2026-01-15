@@ -7,18 +7,26 @@
 
 ## 今年汇总 ✨
 
-⏳ Year progress { █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 3.91 %
+⏳ Year progress { █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 3.96 %
 
-⏰ Updated on Thu, 15 Jan 2026 06:40:19 GMT
+⏰ Updated on Thu, 15 Jan 2026 10:32:43 GMT
 
 ---
 <p align="center">
-<img align="center" src="https://stats.135795.xyz/api?username=story-x&show_icons=true&count_private=true&include_all_commits=true&line_height=21" alt="story-x's Github Stats" />
-<img align="center" src="https://stats.135795.xyz/api/top-langs/?username=story-x&hide_langs_below=1&theme=default&line_height=27&layout=compact" />
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/output/github-contribution-grid-snake-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/output/github-contribution-grid-snake.svg">
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/story-x/story-x/output/github-contribution-grid-snake.svg">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg">
+<img align="center" src="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg" alt="story-x's Github Stats" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-light.svg">
+<img align="center" src="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-light.svg" alt="Top Languages" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/snk/snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/snk/snake-light.svg">
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/story-x/story-x/dist/snk/snake-light.svg">
 </picture>
 </p>
 
