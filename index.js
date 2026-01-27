@@ -18,7 +18,7 @@ const readme = `\
 ## story-x  👋
 <p align="center"><img src="https://github.com/story-x/story-x/blob/master/gif/RThN0hOS2GO4M.gif" /></p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/story-x/count.svg" /></p>
+<p align="center"><img src="https://count.getloli.com/get/@story-x?theme=booru-yuyuyui" /></p>
 
 
 ## 今年汇总 ✨

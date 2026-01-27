@@ -41,14 +41,14 @@ jobs:
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=material-palenight&locale=cn'
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=material-palenight'
         path: star-light.svg
 
     - name: 生成star dark图
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=omni&locale=cn'
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=omni'
         path: star-dark.svg
 
     - name: 上传文件
@@ -66,7 +66,7 @@ jobs:
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=material-palenight&locale=cn'
+        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=material-palenight'
         card: 'top-langs'
         path: top-langs-light.svg
 
@@ -74,7 +74,7 @@ jobs:
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=omni&locale=cn'
+        options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&role=owner,collaborator&theme=omni'
         card: 'top-langs'
         path: top-langs-dark.svg
 
