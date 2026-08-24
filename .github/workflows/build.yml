@@ -41,14 +41,14 @@ jobs:
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.PAT_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=material-palenight'
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=false&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=material-palenight'
         path: star-light.svg
 
     - name: 生成star dark图
       uses: Zo-Bro-23/grs-action@main
       with:
         token: ${{ secrets.PAT_TOKEN }}
-        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=true&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=omni'
+        options: 'username=${{ github.repository_owner }}&show_icons=true&count_private=false&line_height=28&hide_border=true&card_width=450&include_all_commits=true&role=owner,collaborator&exclude_repo=github-readme-stats&theme=omni'
         path: star-dark.svg
 
     - name: 上传文件
