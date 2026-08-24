@@ -7,17 +7,12 @@
 
 ## 今年汇总 ✨
 
-⏳ Year progress { ███████████████████▁▁▁▁▁▁▁▁▁▁▁ } 64.46 %
+⏳ Year progress { ███████████████████▁▁▁▁▁▁▁▁▁▁▁ } 64.48 %
 
-⏰ Updated on Mon, 24 Aug 2026 06:47:52 GMT
+⏰ Updated on Mon, 24 Aug 2026 08:48:53 GMT
 
 ---
 <p align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg">
-<img align="center" src="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg" alt="story-x's Github Stats" />
-</picture>
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-light.svg">
