@@ -30,11 +30,6 @@ const readme = `\
 ---
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg">
-<img align="center" src="https://raw.githubusercontent.com/story-x/story-x/dist/star/star-light.svg" alt="story-x's Github Stats" />
-</picture>
-<picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-light.svg">
 <img align="center" src="https://raw.githubusercontent.com/story-x/story-x/dist/language/top-langs-light.svg" alt="Top Languages" />
